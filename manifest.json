@@ -1,0 +1,19 @@
+{
+    "name": "Video Clipper",
+    "version": "1.0",
+    "description": "Get image clip from a video on the page",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_title": "Clip image from video"
+    },
+    "permissions": [
+        "declarativeContent",
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ]
+}
